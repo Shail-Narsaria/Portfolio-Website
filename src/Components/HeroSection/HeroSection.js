@@ -10,7 +10,7 @@ const textVariants={
     x:0,
     opacity:1,
     transition:{
-      duration:2,
+      duration:1,
       StaggerChildren:0.1
     }
   }
@@ -34,12 +34,12 @@ const HeroSection = () => {
   return (
     <div className="HeroSection">
       <div className="wrapperCont">
-        <motion.div className="textCont" variants={textVariants} initial="initial" animate="animate">
+        <motion.div className="textCont" variants={textVariants} initial="initial" whileInView="animate">
           <motion.h2 variants={textVariants}>SHAIL NARSARIA</motion.h2>
           <motion.h1 variants={textVariants}>Web Developer</motion.h1>
           <motion.div variants={textVariants} className="btnConta">
-            <motion.button variants={textVariants}>Projects</motion.button>
-            <motion.button variants={textVariants}>Contact Me</motion.button>
+            <motion.button variants={textVariants}><a href="#Projects">Projects</a></motion.button>
+            <motion.button variants={textVariants}><a href="#Contact">Contact Me</a></motion.button>
           </motion.div>
         </motion.div>
       </div>

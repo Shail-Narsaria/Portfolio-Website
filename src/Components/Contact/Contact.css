@@ -22,6 +22,14 @@ h1{
 
 .formCont{
     flex: 0.7;
+    position: relative;
+
+    .phonesvg{
+        position: absolute;
+        top: 5rem;
+        margin: auto;
+        background-color: green;
+    }
 }
 
 form{
