@@ -2,6 +2,7 @@ import './App.css';
 import HeroSection from './Components/HeroSection/HeroSection';
 import Navbar from './Components/Navbar/Navbar';
 import Contact from './Components/Contact/Contact';
+import Cursor from './Components/Cursor/Cursor';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <section id="Contact">
         <Contact/>
       </section>
+      <Cursor/>
     </div>
   );
 }
