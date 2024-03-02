@@ -26,9 +26,12 @@ h1{
 
     .phonesvg{
         position: absolute;
-        top: 5rem;
         margin: auto;
-        background-color: green;
+        top: 2rem;
+        left: 8rem;
+        height: 15rem;
+        width: 15rem;
+        stroke: orange;
     }
 }
 
