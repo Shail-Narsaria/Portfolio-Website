@@ -1,6 +1,7 @@
 import './App.css';
 import HeroSection from './Components/HeroSection/HeroSection';
 import Navbar from './Components/Navbar/Navbar';
+import Contact from './Components/Contact/Contact';
 
 function App() {
   return (
@@ -14,7 +15,9 @@ function App() {
       <section>Parralax</section>
       <section id="Projects">Projects</section>
       <section>Parralax</section>
-      <section id="Contact">Contact</section>
+      <section id="Contact">
+        <Contact/>
+      </section>
     </div>
   );
 }

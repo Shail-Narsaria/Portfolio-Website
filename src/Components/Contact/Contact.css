@@ -1,0 +1,50 @@
+.contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    max-width: 80rem;
+    height: 100%;
+}
+
+.contactTextCont{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+h1{
+    font-size: 4rem;
+    line-height: 8rem;
+}
+
+.formCont{
+    flex: 0.7;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    input{
+        background-color: transparent;
+        border: 2px solid lightgray;
+        color: lightgray;
+        padding: 1rem;
+        border-radius: 1rem;  
+    }
+
+    button{
+        background-color: orange;
+        padding: 1rem;
+        border-radius: 1rem;
+        cursor: pointer;
+
+        
+    }
+
+    button:hover{
+        background-color: rgb(204, 172, 10);
+    }
+}
