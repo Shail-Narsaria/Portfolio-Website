@@ -19,7 +19,7 @@ function App() {
       <section id="Contact">
         <Contact/>
       </section>
-      <Cursor/>
+      {/* <Cursor/> */}
     </div>
   );
 }

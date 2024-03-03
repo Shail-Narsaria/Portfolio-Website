@@ -3,11 +3,13 @@ import {motion} from "framer-motion"
 
 const textVariants={
   initial:{
-    x:-500,
+    x:0,
+    y:-500,
     opacity:0
   },
   animate:{
     x:0,
+    y:0,
     opacity:1,
     transition:{
       duration:1,
