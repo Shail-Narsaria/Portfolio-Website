@@ -4,7 +4,7 @@ import './Cursor.css';
 
 const Cursor = () => {
   useEffect(() => {
-    const root = document.getElementById('Cursor');
+    const root = document.getElementById('cursor');
     const op = {
       el: root,
       shaderPoints: 16,
@@ -17,7 +17,6 @@ const Cursor = () => {
 
   return (
     <div id="cursor">
-      {/* Additional content if needed */}
     </div>
   );
 };

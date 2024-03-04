@@ -7,6 +7,7 @@ import Cursor from './Components/Cursor/Cursor';
 function App() {
   return (
     <div>
+      <Cursor/>
       <section id="Home">
         <Navbar/>
         <HeroSection/>
@@ -19,7 +20,7 @@ function App() {
       <section id="Contact">
         <Contact/>
       </section>
-      {/* <Cursor/> */}
+      
     </div>
   );
 }

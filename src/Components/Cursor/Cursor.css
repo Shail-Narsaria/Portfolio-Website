@@ -1,4 +1,3 @@
-
 body,
 html,
 #cursor {
@@ -11,44 +10,21 @@ html,
   overflow: hidden;
   touch-action: pan-up;
   color: white;
+  /* height: 100rem;
+  width: 100rem; */
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  background-color: green;
 }
 
 #cursor canvas {
   display: block;
   position: fixed;
-  z-index: -1;
+  z-index: 999;
   top: 0;
-}
-
-
-/* Neon.css */
-body,
-html,
-#neon {
-  margin: 0;
+  left: 0;
   width: 100%;
   height: 100%;
+  background-color: green;
 }
-
-#neon {
-  overflow: hidden;
-  touch-action: pan-up;
-  color: white;
-}
-
-#neon canvas {
-  display: block;
-  position: fixed;
-  z-index: -1;
-  top: 0;
-}
-
-/* Example of updating kebab-case to camelCase */
-#neon svg {
-  stroke-width: 2;
-  /* Update to camelCase */
-  strokeWidth: 2;
-}
-
-/* Update any other properties causing the warning similarly */
-
