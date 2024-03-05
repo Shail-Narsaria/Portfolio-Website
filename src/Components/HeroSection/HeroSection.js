@@ -1,5 +1,7 @@
 import "./HeroSection.css"
 import {motion} from "framer-motion"
+//npm i react-simple-typewriter
+import {useTypewriter,Cursor} from "react-simple-typewriter"
 
 const textVariants={
   initial:{
@@ -32,13 +34,20 @@ const MovingTextVariants={
   }
 }
 
+
 const HeroSection = () => {
+
+  const [changingText]=useTypewriter({
+    words: ["Web Developer","Tech Enthusiast"],
+    loop:{}
+  })
+  
   return (
     <div className="HeroSection">
       <div className="wrapperCont">
         <motion.div className="textCont" variants={textVariants} initial="initial" whileInView="animate">
           <motion.h2 variants={textVariants}>SHAIL NARSARIA</motion.h2>
-          <motion.h1 variants={textVariants}>Web Developer</motion.h1>
+          <motion.h1 variants={textVariants}>A {changingText}<Cursor cursorStyle=">"/></motion.h1>
           <motion.div variants={textVariants} className="btnConta">
             <motion.button variants={textVariants}><a href="#Projects">Projects</a></motion.button>
             <motion.button variants={textVariants}><a href="#Contact">Contact Me</a></motion.button>

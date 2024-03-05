@@ -28,3 +28,7 @@ html,
   height: 100%;
   background-color: green;
 }
+
+h1,h2{
+  cursor: default;
+}
