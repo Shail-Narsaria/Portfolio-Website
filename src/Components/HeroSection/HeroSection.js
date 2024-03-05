@@ -38,7 +38,7 @@ const MovingTextVariants={
 const HeroSection = () => {
 
   const [changingText]=useTypewriter({
-    words: ["Web Developer","Tech Enthusiast"],
+    words: ["Web Developer","Passionate Coder"],
     loop:{}
   })
   
@@ -55,7 +55,7 @@ const HeroSection = () => {
         </motion.div>
       </div>
       <motion.div className="movingText" variants={MovingTextVariants} initial="initial" animate="animate">
-        A Coding Enthusiast
+        A Tech Enthusiast
       </motion.div>
       <div className="imgCont">
         <img src="/Screenshot 2024-02-22 233241.png" alt="myimg"></img>

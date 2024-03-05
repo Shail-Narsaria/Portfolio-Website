@@ -13,10 +13,10 @@ function App() {
         <HeroSection/>
       </section>
       <section id="About">About</section>
-      <section id="Skills">Skills</section>
+      {/* <section id="Skills">Skills</section>
       <section>Parralax</section>
       <section id="Projects">Projects</section>
-      <section>Parralax</section>
+      <section>Parralax</section> */}
       <section id="Contact">
         <Contact/>
       </section>

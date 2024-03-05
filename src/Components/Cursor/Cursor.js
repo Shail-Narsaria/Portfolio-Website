@@ -1,8 +1,9 @@
 import React, { useEffect } from 'react';
-import { neonCursor } from 'https://unpkg.com/threejs-toys@0.0.2/build/threejs-toys.module.cdn.min.js';
+import { neonCursor } from 'https://unpkg.com/threejs-toys@0.0.8/build/threejs-toys.module.cdn.min.js'
 import './Cursor.css';
 
 const Cursor = () => {
+  
   useEffect(() => {
     const root = document.getElementById('cursor');
     const op = {

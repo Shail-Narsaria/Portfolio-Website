@@ -11,7 +11,6 @@
     position: absolute;
     top: 12rem;
     right: 5rem;
-
 }
 
 .wrapperCont{
@@ -32,10 +31,12 @@
         font-size: 2rem;
         color: rgb(110, 53, 167);
         letter-spacing: 0.8rem;
+        cursor: default;
     }
 
     h1{
         font-size: 4rem;
+        cursor: default;
     }
 
     .btnConta{
