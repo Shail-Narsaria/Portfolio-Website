@@ -1,12 +1,12 @@
 import React from 'react'
 import "./Projects.css"
 
-const projects = () => {
+const Projects = () => {
   return (
-    <div>
+    <div className='Projects'>
       
     </div>
   )
 }
 
-export default projects
+export default Projects
