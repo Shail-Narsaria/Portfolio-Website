@@ -58,7 +58,7 @@ const HeroSection = () => {
         A Tech Enthusiast
       </motion.div>
       <div className="imgCont">
-        <img src="/Screenshot 2024-02-22 233241.png" alt="myimg"></img>
+        <img src="/white.png" alt="myimg"></img>
       </div>
     </div>
   )
