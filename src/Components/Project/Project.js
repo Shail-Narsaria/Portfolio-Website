@@ -6,7 +6,7 @@ const items=[
     {
       id:1,
       name: "Project1",
-      img: "",
+      img: "ger",
       desc: "sdfasda"
     },
     {
