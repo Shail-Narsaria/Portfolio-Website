@@ -63,7 +63,7 @@ const Contact = () => {
   return (
     <motion.div ref={ref} className="contact" variants={variants} initial="initial" whileInView="animate">
       <motion.div className="contactTextCont" variants={variants}>
-        <h1 variants={variants}>LET'S CONNECT</h1>
+        <h1 variants={variants} className="contacth1">LET'S CONNECT</h1>
         <div className="contactInfo">
             <h2>e-mail:</h2>
             <span>shailnarsaria18@gmail.com</span>
