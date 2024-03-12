@@ -28,24 +28,30 @@ const EachProject =({item})=>{
 
     const {scrollYLine} = useScroll({
         target:ref,
+        // offset:["start start","end end"]
     })
 
-    const y =useTransform(scrollYLine,[0,1],[-100,100])
+    const y =useTransform(scrollYLine,[0,1],[-300,300])
 
 
     return(
-        <section ref={ref}>
+        <section>
             <div className="eachProjectCont">
-                <img src={item.img} alt={item.name}></img>
-                <div className="eachProjectTextCont">
-                    <h2>{item.name}</h2>
-                    <p>{item.desc}</p>
-                    <button>Visit Website</button>
-                </div>
+                <div className="eachProjectWrapper">
+                    <div className="eachProjectImgCont" ref={ref}>
+                        <img src={item.img} alt={item.name}></img>
+                    </div>
+                    <motion.div className="eachProjectTextCont" style={y}>
+                        <h2 className='eachProjecth2'>{item.name}</h2>
+                        <p className='eachProjectp'>{item.desc}</p>
+                        <button>Visit Website</button>
+                    </motion.div>
+                </div> 
             </div>
         </section>
     )
 }
+
 
 const Project = () => {
 
