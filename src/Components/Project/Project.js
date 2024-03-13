@@ -6,33 +6,34 @@ const items=[
     {
       id:1,
       name: "Project1",
-      img: "./p1.png",
+      img: "/p1.jpeg",
       desc: "sdfasda"
     },
     {
         id:2,
         name: "Project2",
-        img: "dsf",
+        img: "/p2.jpeg",
         desc: "sdfasda"
     },
     {
         id:3,
         name: "Project3",
-        img: "dsf",
+        img: "/p3.jpeg",
         desc: "sdfasda"
     },
 ]
 
 const EachProject =({item})=>{
+
+    
     const ref=useRef()
 
-    const {scrollYLine} = useScroll({
+    const {scrollYProgress} = useScroll({
         target:ref,
         // offset:["start start","end end"]
-    })
+    });
 
-    const y =useTransform(scrollYLine,[0,1],[-300,300])
-
+    const y =useTransform(scrollYProgress,[0,1],[-300,300])
 
     return(
         <section>
@@ -51,18 +52,18 @@ const EachProject =({item})=>{
         </section>
     )
 }
-
+ 
 
 const Project = () => {
 
     const ref=useRef()
 
-    const {scrollYLine} = useScroll({
+    const {scrollYProgress} = useScroll({
         target:ref,
         offset:["end end","start start"]
     })
 
-    const scaleX=useSpring(scrollYLine,{
+    const scaleX=useSpring(scrollYProgress,{
         stiffness:100,
         damping:30
     })
