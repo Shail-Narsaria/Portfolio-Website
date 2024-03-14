@@ -20,9 +20,9 @@ function App() {
         <Project/>
       </section>
       {/* <section>Parralax</section> */}
-      {/* <section id="Contact">
+      <section id="Contact">
         <Contact/>
-      </section> */}
+      </section>
       
     </div>
   );

@@ -68,3 +68,13 @@
     font-size: 2rem;
     color: gray;
 }
+
+.eachProjectButton{
+    background-color: orange;
+    border: none;
+    border-radius: 15%;
+    padding: 1rem;
+    width: 10rem;
+    cursor: pointer;
+    font-weight: 600;
+}

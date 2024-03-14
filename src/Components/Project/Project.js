@@ -24,16 +24,14 @@ const items=[
 ]
 
 const EachProject =({item})=>{
-
     
     const ref=useRef()
 
     const {scrollYProgress} = useScroll({
         target:ref,
-        // offset:["start start","end end"]
     });
 
-    const y =useTransform(scrollYProgress,[0,1],[-300,300])
+    const y =useTransform(scrollYProgress,[0,1],[-250,250])
 
     return(
         <section>
@@ -42,10 +40,10 @@ const EachProject =({item})=>{
                     <div className="eachProjectImgCont" ref={ref}>
                         <img src={item.img} alt={item.name}></img>
                     </div>
-                    <motion.div className="eachProjectTextCont" style={y}>
+                    <motion.div className="eachProjectTextCont" style={{y}}>
                         <h2 className='eachProjecth2'>{item.name}</h2>
                         <p className='eachProjectp'>{item.desc}</p>
-                        <button>Visit Website</button>
+                        <button className='eachProjectButton'>Visit Website</button>
                     </motion.div>
                 </div> 
             </div>
