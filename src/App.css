@@ -20,7 +20,9 @@ section{
 }
 
 #Project{
-  height: 320vh;
+  height: 220vh; 
+  /* change it if adding more projects  */
+  
 }
 
 a{

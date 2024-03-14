@@ -5,22 +5,24 @@ import {motion,useScroll,useSpring, useTransform} from "framer-motion"
 const items=[
     {
       id:1,
-      name: "Project1",
-      img: "/p1.jpeg",
-      desc: "sdfasda"
+      name: "DrawFlow",
+      img: "/drawflowimg.png",
+      desc: "sdfasda",
+      link: "https://drawflow.netlify.app/"
     },
     {
         id:2,
-        name: "Project2",
+        name: "E-Commerce Clone",
         img: "/p2.jpeg",
-        desc: "sdfasda"
+        desc: "sdfasda",
+        link: "https://shailnarsariaflipkart.netlify.app/"
     },
-    {
-        id:3,
-        name: "Project3",
-        img: "/p3.jpeg",
-        desc: "sdfasda"
-    },
+    // {
+    //     id:3,
+    //     name: "Project3",
+    //     img: "/p3.jpeg",
+    //     desc: "sdfasda"
+    // },
 ]
 
 const EachProject =({item})=>{
@@ -43,7 +45,7 @@ const EachProject =({item})=>{
                     <motion.div className="eachProjectTextCont" style={{y}}>
                         <h2 className='eachProjecth2'>{item.name}</h2>
                         <p className='eachProjectp'>{item.desc}</p>
-                        <button className='eachProjectButton'>Visit Website</button>
+                        <button className='eachProjectButton'><a href={item.link} target="_blank" rel="noreferrer">Visit Website</a></button>
                     </motion.div>
                 </div> 
             </div>
