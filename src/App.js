@@ -4,6 +4,7 @@ import Navbar from './Components/Navbar/Navbar';
 import Contact from './Components/Contact/Contact';
 import Cursor from './Components/Cursor/Cursor';
 import Project from './Components/Project/Project'
+import About from './Components/About/About';
 
 function App() {
   return (
@@ -13,8 +14,10 @@ function App() {
         <Navbar/>
         <HeroSection/>
       </section>
-      {/* <section id="About">About</section>
-      <section id="Skills">Skills</section>
+      <section id="About">
+        <About/>
+      </section>
+      {/* <section id="Skills">Skills</section>
       <section>Parralax</section> */}
       <section id="Project">
         <Project/>

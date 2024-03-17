@@ -9,7 +9,7 @@ const items=[
       img: "/drawflowimg1.png",
       desc: "A digital whiteboard application designed to draw lines and patterns , add sticky notes , download the drawing with undo and redo features using Canvas API",
       link: "https://drawflow.netlify.app/",
-      github:""
+      github:"https://github.com/Shail-Narsaria/DrawFlow"
     },
     {
         id:2,
@@ -17,7 +17,7 @@ const items=[
         img: "/flipkartcloneimg.png",
         desc: "A responsive online shopping website with a user friendly interface and intuitive design replicated from Flipkart's website",
         link: "https://shailnarsariaflipkart.netlify.app/",
-        github:""
+        github:"https://github.com/Shail-Narsaria/Flipkart-Clone"
     },
     // {
     //     id:3,
