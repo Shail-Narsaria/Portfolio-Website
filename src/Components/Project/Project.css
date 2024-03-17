@@ -77,8 +77,14 @@
     padding: 1rem;
     width: 10rem;
     font-weight: 600;
+    font-size: large;
 }
 
 a{
     cursor: pointer;
+}
+
+.eachProjectButtonCont{
+    display: flex;
+    gap: 3rem;
 }

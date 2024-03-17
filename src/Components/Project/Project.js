@@ -8,14 +8,16 @@ const items=[
       name: "DrawFlow",
       img: "/drawflowimg1.png",
       desc: "A digital whiteboard application designed to draw lines and patterns , add sticky notes , download the drawing with undo and redo features using Canvas API",
-      link: "https://drawflow.netlify.app/"
+      link: "https://drawflow.netlify.app/",
+      github:""
     },
     {
         id:2,
         name: "E-Commerce Clone",
         img: "/flipkartcloneimg.png",
         desc: "A responsive online shopping website with a user friendly interface and intuitive design replicated from Flipkart's website",
-        link: "https://shailnarsariaflipkart.netlify.app/"
+        link: "https://shailnarsariaflipkart.netlify.app/",
+        github:""
     },
     // {
     //     id:3,
@@ -23,6 +25,8 @@ const items=[
     //     img: "/p3.jpeg",
     //     desc: "sdfasda"
     // },
+
+    //changes css in App.css after adding new project
 ]
 
 const EachProject =({item})=>{
@@ -45,7 +49,11 @@ const EachProject =({item})=>{
                     <motion.div className="eachProjectTextCont" style={{y}}>
                         <h2 className='eachProjecth2'>{item.name}</h2>
                         <p className='eachProjectp'>{item.desc}</p>
-                        <button className='eachProjectButton'><a href={item.link} target="_blank" rel="noreferrer">Visit Website</a></button>
+                        <div className="eachProjectButtonCont">
+                            <button className='eachProjectButton'><a href={item.link} target="_blank" rel="noreferrer">Visit Website</a></button>
+                            <button className='eachProjectButton'><a href={item.github} target="_blank" rel="noreferrer">Github</a></button>
+                        </div>
+                        
                     </motion.div>
                 </div> 
             </div>

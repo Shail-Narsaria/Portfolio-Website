@@ -47,8 +47,8 @@
             color: lightgray;
             border-radius: 20%;
             border: 1px solid lightgray;
-            margin-right: 1.5rem;
-            cursor: pointer;
+            margin-right: 1.5rem; 
+            font-size: medium;
         }
 
         button:hover{

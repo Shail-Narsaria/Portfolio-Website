@@ -49,7 +49,7 @@ const HeroSection = () => {
           <motion.h2 variants={textVariants}>SHAIL NARSARIA</motion.h2>
           <motion.h1 variants={textVariants} className="heroh1">A {changingText}<Cursor cursorStyle=">"/></motion.h1>
           <motion.div variants={textVariants} className="btnConta">
-            <motion.button variants={textVariants}><a href="#Project">Projects</a></motion.button>
+            <motion.button variants={textVariants}><a href="/myresume.pdf" download>Download Resume</a></motion.button>
             <motion.button variants={textVariants}><a href="#Contact">Contact Me</a></motion.button>
           </motion.div>
         </motion.div>
