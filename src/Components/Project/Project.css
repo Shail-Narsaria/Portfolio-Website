@@ -46,7 +46,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 2rem;
+    gap: 7rem;
 }
 
 .eachProjectImgCont{
@@ -67,6 +67,7 @@
 .eachProjectp{
     font-size: 2rem;
     color: gray;
+    font-family: "Pacifico",cursive;
 }
 
 .eachProjectButton{
@@ -75,6 +76,9 @@
     border-radius: 15%;
     padding: 1rem;
     width: 10rem;
-    cursor: pointer;
     font-weight: 600;
+}
+
+a{
+    cursor: pointer;
 }

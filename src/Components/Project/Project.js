@@ -6,15 +6,15 @@ const items=[
     {
       id:1,
       name: "DrawFlow",
-      img: "/drawflowimg.png",
-      desc: "sdfasda",
+      img: "/drawflowimg1.png",
+      desc: "A digital whiteboard application designed to draw lines and patterns , add sticky notes , download the drawing with undo and redo features using Canvas API",
       link: "https://drawflow.netlify.app/"
     },
     {
         id:2,
         name: "E-Commerce Clone",
-        img: "/p2.jpeg",
-        desc: "sdfasda",
+        img: "/flipkartcloneimg.png",
+        desc: "A responsive online shopping website with a user friendly interface and intuitive design replicated from Flipkart's website",
         link: "https://shailnarsariaflipkart.netlify.app/"
     },
     // {
