@@ -27,7 +27,7 @@
     justify-content: center;
     gap: 2rem;
 
-    h2{
+    .heroh2{
         font-size: 2rem;
         color: rgb(110, 53, 167);
         letter-spacing: 0.8rem;
@@ -41,7 +41,7 @@
     }
 
     .btnConta{
-        button{
+        .herobtn{
             padding: 1rem;
             background-color: transparent;
             color: lightgray;
@@ -51,7 +51,7 @@
             font-size: medium;
         }
 
-        button:hover{
+        .herobtn:hover{
             background-color: white;
             color: #0b0b1d;
         }

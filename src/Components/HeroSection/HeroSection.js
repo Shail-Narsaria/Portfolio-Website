@@ -46,11 +46,11 @@ const HeroSection = () => {
     <div className="HeroSection">
       <div className="wrapperCont">
         <motion.div className="textCont" variants={textVariants} initial="initial" whileInView="animate">
-          <motion.h2 variants={textVariants}>SHAIL NARSARIA</motion.h2>
+          <motion.h2 variants={textVariants} className="heroh2">SHAIL NARSARIA</motion.h2>
           <motion.h1 variants={textVariants} className="heroh1">A {changingText}<Cursor cursorStyle=">"/></motion.h1>
           <motion.div variants={textVariants} className="btnConta">
-            <motion.button variants={textVariants}><a href="/myresume.pdf" download>Download Resume</a></motion.button>
-            <motion.button variants={textVariants}><a href="#Contact">Contact Me</a></motion.button>
+            <motion.button variants={textVariants} className="herobtn"><a href="/myresume.pdf" download>Download Resume</a></motion.button>
+            <motion.button variants={textVariants} className="herobtn"><a href="#Contact">Contact Me</a></motion.button>
           </motion.div>
         </motion.div>
       </div>
