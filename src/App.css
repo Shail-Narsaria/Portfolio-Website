@@ -21,8 +21,11 @@ section{
 
 #Project{
   height: 220vh; 
-  /* change it if adding more projects  */
-  
+  /* change it if adding more projects  */ 
+}
+
+#About{
+  height: 220vh; 
 }
 
 a{
