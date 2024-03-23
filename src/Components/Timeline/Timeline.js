@@ -1,23 +1,23 @@
-import React, { useRef } from 'react'
+import React from 'react'
 import "./Timeline.css"
-import {motion,useScroll,useSpring, useTransform,useMotionValue} from "framer-motion"
+import {motion} from "framer-motion"
 
 const Timeline = () => {
-    const ref=useRef()
+    // const ref=useRef()
 
-    const {scrollYProgress} = useScroll({
-        target:ref,
-        offset: ["0 0","1 5"]
-    });
+    // const {scrollYProgress} = useScroll({
+    //     target:ref,
+    //     offset: ["0 0","1 5"]
+    // });
 
     // const y =useTransform(scrollYProgress,[0,100],[1,0])
     
 
-
   return (
     <div className='timeline'>
 
-        <motion.div className="timelineCont left-timelineCont" ref={{ref}} style={{scale:scrollYProgress, opacity:scrollYProgress}}>
+        {/* <motion.div className="timelineCont left-timelineCont" ref={{ref}} style={{scale:scrollYProgress, opacity:scrollYProgress}}> */}
+        <motion.div className="timelineCont left-timelineCont" initial={{opacity:0,scale:0}} whileInView={{opacity:1,scale:1}} transition={{duration:1}}>
             <div className="timelineCircleCont left-timelineCircleCont"></div>
             <div className="timelineTextCont">
                 <h2>Vellore Institute of Technology</h2>
@@ -30,7 +30,7 @@ const Timeline = () => {
             <div className="left-timelineArrow"></div>
         </motion.div>
 
-        <motion.div className="timelineCont right-timelineCont"  ref={{ref}} style={{scale:scrollYProgress, opacity:scrollYProgress}}>
+        <motion.div className="timelineCont right-timelineCont"  initial={{opacity:0,scale:0}} whileInView={{opacity:1,scale:1}} transition={{duration:1}}>
         <div className="timelineCircleCont right-timelineCircleCont"></div>
             <div className="timelineTextCont">
                 <h2>Delhi Public School</h2>
@@ -43,7 +43,7 @@ const Timeline = () => {
             <div className="right-timelineArrow"></div>
         </motion.div>
 
-        <motion.div className="timelineCont left-timelineCont"  ref={{ref}} style={{scale:scrollYProgress, opacity:scrollYProgress}}>
+        <motion.div className="timelineCont left-timelineCont"  initial={{opacity:0,scale:0}} whileInView={{opacity:1,scale:1}} transition={{duration:1}}>
         <div className="timelineCircleCont left-timelineCircleCont"></div>
             <div className="timelineTextCont">
                 <h2>Delhi Public School</h2>
