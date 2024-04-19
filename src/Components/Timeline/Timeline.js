@@ -6,7 +6,16 @@ const Timeline = () => {
 
   return (
     <>
-        <div className="timelineTitle">MY EDUCATION</div>
+        <marquee
+        direction="down"
+         style={{
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            fontSize: '3rem',
+            fontWeight: '500',
+            marginTop: '2rem',
+        }}>MY EDUCATION</marquee>
         <div className='timeline'>
             <motion.div className="timelineCont left-timelineCont" initial={{opacity:0,scale:0}} whileInView={{opacity:1,scale:1}} transition={{duration:1}}>
                 <div className="timelineCircleCont left-timelineCircleCont"></div>
