@@ -27,3 +27,7 @@
         width: 2rem;
     }
 }
+
+.navbarIcon:hover{
+    scale: 1.1;
+}
