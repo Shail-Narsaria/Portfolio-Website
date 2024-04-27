@@ -50,7 +50,7 @@ const HeroSection = () => {
           <motion.h1 variants={textVariants} className="heroh1">A {changingText}<Cursor cursorStyle=">"/></motion.h1>
           <motion.div variants={textVariants} className="btnConta">
             <a href="/myresume.pdf" download><motion.button variants={textVariants} className="herobtn">Download Resume</motion.button></a>
-            <a href="#Contact"><motion.button variants={textVariants} className="herobtn">Contact Me</motion.button></a>
+            <a href="#Contact"><motion.button variants={textVariants} className="herobtn herobtncontact">Contact Me</motion.button></a>
           </motion.div>
         </motion.div>
       </div>
@@ -58,7 +58,7 @@ const HeroSection = () => {
         A Tech Enthusiast
       </motion.div>
       <div className="imgCont">
-        <img src="/white.png" alt="myimg"></img>
+        <img src="/homepic.jpg" alt="myimg" id="homepic"></img>
       </div>
     </div>
   )

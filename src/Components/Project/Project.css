@@ -9,7 +9,7 @@
     left: 0;
     padding-top: 1rem;
     text-align: center;
-    color: orange;
+    color: rgb(201, 154, 243);
     font-size: 2rem;
     display: flex;
     justify-content: center;
@@ -19,7 +19,7 @@
 
 .lineLen{
     height: 0.5rem;
-    background-color: white;
+    background-color: rgb(201, 154, 243);
     width: 70%;       
 }
 
@@ -71,7 +71,7 @@
 }
 
 .eachProjectButton{
-    background-color: orange;
+    background-color: rgb(201, 154, 243);
     border: none;
     border-radius: 15%;
     padding: 1rem;

@@ -29,10 +29,10 @@ const About = () => {
     <>
     <motion.div className='about' ref={ref} variants={variants} initial="initial" whileInView="animate">
          <section id="about" variants={variants}>
-            <h2>How It All Began</h2>
+            <div className='abouth2'>ABOUT ME</div>
             <div class="container" variants={variants}>
               <div class="about-image">
-                <img src="white.png" alt=""></img>
+                <img src="aboutpic.jpeg" alt=""></img>
               </div>
               <motion.div class="about-content" variants={variants}>
                 <p>Hello World! I'm Shail Narsaria, a second-year Computer Science Engineering undergraduate driven by a passion for coding and a commitment to self-improvement. Ever since I embarked on my journey into the world of technology, I've been captivated by the endless possibilities that programming offers and the boundless opportunities for innovation it presents.

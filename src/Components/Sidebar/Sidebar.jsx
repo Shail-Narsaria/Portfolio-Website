@@ -1,6 +1,6 @@
 import "./Sidebar.css"
-import Links from "./Links/Links.js" 
-import ToggleBtn from "./ToggleBtn/ToggleBtn.js"
+import Links from "./Links/Links.jsx" 
+import ToggleBtn from "./ToggleBtn/ToggleBtn.jsx"
 import {useState} from "react"
 import {motion} from "framer-motion"
 

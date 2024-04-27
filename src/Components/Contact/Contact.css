@@ -17,7 +17,7 @@
 .contacth1{
     font-size: 4rem;
     line-height: 8rem;
-    color: orange;
+    color: rgb(201, 154, 243);;
 }
 
 .formCont{
@@ -31,7 +31,7 @@
         left: 8rem;
         height: 15rem;
         width: 15rem;
-        stroke: orange;
+        stroke: rgb(201, 154, 243);;
         z-index: -1;
     }
 }
@@ -50,12 +50,12 @@ form{
     }
 
     input:hover,textarea:hover{
-        background-color: rgb(249, 220, 165);
+        background-color: rgb(218, 187, 245);
         color: black;
     }
 
     button{
-        background-color: orange;
+        background-color: rgb(201, 154, 243);
         padding: 1rem;
         border-radius: 1rem;
         cursor: pointer;
@@ -64,6 +64,6 @@ form{
     }
 
     button:hover{
-        background-color: rgb(204, 172, 10);
+        background-color: rgb(137, 31, 230);
     }
 }
