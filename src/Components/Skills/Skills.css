@@ -1,0 +1,36 @@
+.skills{
+    margin-top: 6rem;
+}
+
+.sec1-con{
+    width: 100%;
+    height: 5rem;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin: 0 auto;
+    padding: 0 9rem 0 9rem;
+}
+
+.sec1-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sec1-items img{
+    width: 5rem;
+    height: 5rem;
+    margin: 0 0 2rem 0;
+    /* border-radius: 50%; */
+}
+
+.skillstitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4rem;
+    font-size: 3rem;
+    font-weight: 500;
+    color: rgb(201, 154, 243);
+}

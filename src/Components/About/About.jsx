@@ -1,6 +1,7 @@
 import React , { useRef } from 'react'
 import "./About.css"
 import Timeline from '../Timeline/Timeline'
+import Skills from '../Skills/Skills'
 import {motion} from "framer-motion"
 
 const variants={
@@ -46,6 +47,7 @@ const About = () => {
         
     </motion.div>
     <Timeline/>
+    <Skills/>
     </>
   )
 }
