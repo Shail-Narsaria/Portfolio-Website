@@ -98,43 +98,45 @@
 
 /* For screens smaller than 768px */
 @media screen and (max-width: 768px) {
-    .HeroSection {
-      height: auto;
-      padding: 4rem 2rem; /* Adjust as needed */
-      text-align: center;
-    }
-    
-    .imgCont {
-      display: none; /* Hide the image on smaller screens */
-    }
-    
-    .textCont {
-      width: 100%;
-    }
-    
-    .heroh2 {
-      font-size: 1.5rem;
-      letter-spacing: 0.3rem;
-    }
-    
-    .heroh1 {
-      font-size: 2.5rem;
-    }
-    
-    .movingText {
-      font-size: 4rem;
-    }
-    
-    .btnConta {
-      flex-direction: column;
-      align-items: center;
-      gap: 1rem;
-      
-      .herobtn {
-        margin: 0;
-      }
-    }
+  .HeroSection {
+    height: auto;
+    padding: 4rem 2rem; /* Adjust as needed */
+    text-align: center;
   }
   
-  /* Add more media queries as needed */
+  .imgCont {
+    margin-top: 15rem;
+    /* display: none; Hide the image on smaller screens */
+  }
   
+  .textCont {
+    width: 100%;
+    color: #fff; /* Add a color for text visibility */
+  }
+  
+  .heroh2 {
+    font-size: 1.5rem;
+    letter-spacing: 0.3rem;
+    color: #fff; /* Add a color for text visibility */
+  }
+  
+  .heroh1 {
+    font-size: 2.5rem;
+    color: #fff; /* Add a color for text visibility */
+  }
+  
+  .movingText {
+    font-size: 4rem;
+    color: #fff; /* Add a color for text visibility */
+  }
+  
+  .btnConta {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    
+    .herobtn {
+      margin: 0;
+    }
+  }
+}

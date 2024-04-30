@@ -5,8 +5,8 @@ import {useTypewriter,Cursor} from "react-simple-typewriter"
 
 const textVariants={
   initial:{
-    x:0,
-    y:-500,
+    x:-400,
+    y:0,
     opacity:0
   },
   animate:{
@@ -57,9 +57,9 @@ const HeroSection = () => {
       <motion.div className="movingText" variants={MovingTextVariants} initial="initial" animate="animate">
         A Tech Enthusiast
       </motion.div>
-      <div className="imgCont">
+      <motion.div className="imgCont" variants={textVariants} initial="initial" whileInView="animate">
         <img src="/homepic.jpg" alt="myimg" id="homepic"></img>
-      </div>
+      </motion.div>
     </div>
   )
 }

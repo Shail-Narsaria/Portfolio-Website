@@ -79,7 +79,7 @@ form{
         align-items: center;
         margin: auto;
         height: 100%;
-        margin: 0 1rem;
+        margin: 5rem 1rem;
         flex-direction: column;
     }
 
@@ -105,7 +105,7 @@ form{
             position: absolute;
             margin: auto;
             top: 2rem;
-            left: 8rem;
+            left: 0.1rem;
             height: 15rem;
             width: 15rem;
             stroke: rgb(201, 154, 243);;
