@@ -134,6 +134,12 @@ a{
   
   /* For even smaller screens */
   @media screen and (max-width: 480px) {
+
+    .project{
+      margin-top: 30rem;
+      margin-bottom: 10rem;
+    }
+    
     .eachProjectWrapper {
       gap: 1.5rem;
     }
