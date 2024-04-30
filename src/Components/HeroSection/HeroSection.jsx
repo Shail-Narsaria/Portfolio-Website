@@ -5,7 +5,7 @@ import {useTypewriter,Cursor} from "react-simple-typewriter"
 
 const textVariants={
   initial:{
-    x:-400,
+    x:-300,
     y:0,
     opacity:0
   },
