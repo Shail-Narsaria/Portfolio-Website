@@ -5,7 +5,7 @@ import {color, motion} from "framer-motion"
 const Timeline = () => {
 
   return (
-    <>
+    <div className='timelinewholecont'>
         <marquee
         direction="down"
          style={{
@@ -56,7 +56,7 @@ const Timeline = () => {
             </motion.div>
 
         </div>
-    </>
+    </div>
     
   )
 }

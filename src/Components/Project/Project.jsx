@@ -40,7 +40,7 @@ const EachProject =({item})=>{
     const y =useTransform(scrollYProgress,[0,1],[-250,250])
 
     return(
-        <section>
+        <section className='project'>
             <div className="eachProjectCont">
                 <div className="eachProjectWrapper">
                     <div className="eachProjectImgCont" ref={ref}>

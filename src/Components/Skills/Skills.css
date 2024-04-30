@@ -34,3 +34,46 @@
     font-weight: 500;
     color: rgb(201, 154, 243);
 }
+
+
+@media (max-width: 768px) {
+    .skills {
+        margin-top: 6rem;
+      }
+      
+      .sec1-con {
+        max-width: 1200px; /* Set a maximum width */
+        width: 90%; /* Adjust width as needed */
+        margin: 0 auto;
+        padding: 0 2rem; /* Adjust padding for smaller screens */
+        display: flex;
+        flex-wrap: wrap; /* Allow items to wrap to the next line */
+        justify-content: space-around; /* Distribute items evenly */
+      }
+      
+      .sec1-items {
+        flex: 0 0 20%; /* Set flex-basis to ensure 5 items per row */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2rem; /* Adjust spacing between rows */
+      }
+      
+      .sec1-items img {
+        width: 100%; /* Ensure images fill their container */
+        max-width: 100px; /* Set a maximum width for images */
+        height: auto; /* Maintain aspect ratio */
+      }
+      
+      .skillstitle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 4rem;
+        font-size: 3rem;
+        font-weight: 500;
+        color: rgb(201, 154, 243);
+      }
+      
+}

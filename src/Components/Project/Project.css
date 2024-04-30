@@ -88,3 +88,66 @@ a{
     display: flex;
     gap: 3rem;
 }
+
+
+
+/* For smaller screens */
+@media screen and (max-width: 768px) {
+
+  .project{
+    margin-top: 15rem;
+  }
+    .project-cont {
+      font-size: 1.5rem;
+    }
+  
+    .eachProjectWrapper {
+      flex-direction: column;
+      gap: 3rem;
+    }
+  
+    .eachProjectImgCont {
+      height: auto;
+      margin-bottom: 2rem;
+    }
+  
+    .eachProjectTextCont {
+      gap: 3rem;
+    }
+  
+    .eachProjecth2 {
+      font-size: 2rem;
+    }
+  
+    .eachProjectp {
+      font-size: 1.5rem;
+    }
+  
+    .eachProjectButton {
+      width: 8rem;
+      padding: 0.8rem;
+      font-size: medium;
+    }
+  }
+  
+  /* For even smaller screens */
+  @media screen and (max-width: 480px) {
+    .eachProjectWrapper {
+      gap: 1.5rem;
+    }
+  
+    .eachProjecth2 {
+      font-size: 1.5rem;
+    }
+  
+    .eachProjectp {
+      font-size: 1.2rem;
+    }
+  
+    .eachProjectButton {
+      width: 6rem;
+      padding: 0.6rem;
+      font-size: small;
+    }
+  }
+  

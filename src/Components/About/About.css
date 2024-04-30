@@ -37,12 +37,17 @@
     text-align: center;
   }
 
+  .about-content {
+    margin-left: 0; /* Remove left margin on smaller screens */
+    max-width: 100%; /* Allow text to take full width on smaller screens */
+  }
+
   .about-image {
     margin-top: 30px;
   }
 }
- 
-.abouth2{
+
+.abouth2 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -51,3 +56,5 @@
   font-weight: 500;
   color: rgb(201, 154, 243);
 }
+
+
