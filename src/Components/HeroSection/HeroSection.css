@@ -106,7 +106,7 @@
   
   .imgCont {
     margin-top: 15rem;
-    /* display: none; Hide the image on smaller screens */
+    display: none;
   }
   
   .textCont {
